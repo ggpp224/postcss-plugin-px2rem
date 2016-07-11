@@ -1,0 +1,37 @@
+{
+  "name": "postcss-plugins-px2rem",
+  "description": "",
+  "version": "0.0.2",
+  "author": {
+    "name": "guopeng",
+    "email": "394850111@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ggpp224/postcss-plugin-px2rem.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "postcss": "^5.0.0",
+    "css": "~2.2.0",
+    "extend": "~2.0.0",
+    "commander": "~2.6.0",
+    "chalk": "~0.5.1",
+    "fs-extra": "~0.16.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.6",
+    "coveralls": "^2.10.0",
+    "mocha": "^2.1.0",
+    "cssmin": "~0.4.3"
+  },
+  "main": "index.js",
+  "keywords": [
+    "3x",
+    "rem",
+    "px2rem"
+  ],
+  "license": "MIT"
+}
